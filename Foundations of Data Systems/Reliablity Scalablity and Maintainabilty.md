@@ -20,7 +20,7 @@ So if terms of database systems,
     3. It can perform good even in situations of high load,
     4. It make prevenet unauthorized access and abuse.
 
-    Then that system is called reliable (somewhat), basically if the system is working correctly even when the things go wrong then it is reliable.
+Then that system is called reliable (somewhat), basically if the system is working correctly even when the things go wrong then it is reliable.
 
 
-Here the things that can go wrong can be termed as fault and a reliable system can also be called *fault-torlerant* or *resilient*.
+Here the *things-that-can-go-wrong* can be termed as fault and a reliable system can also be called *fault-torlerant* or *resilient*.
