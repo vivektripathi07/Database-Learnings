@@ -24,3 +24,31 @@ Then that system is called reliable (somewhat), basically if the system is worki
 
 
 Here the *things-that-can-go-wrong* can be termed as fault and a reliable system can also be called *fault-torlerant* or *resilient*.
+
+
+Now deep-diving into the topic Reliablity
+
+Data reliablity means that database perform consistently without causing any problems.
+
+For data to be considered as reliable: 
+
+    1. Data Integrity : Data is consistent 
+    2. Data Saftely : Data is secure from any unauthorized access.
+    3. Data recoverablity : Proper mechanisms are there in place in situations of data loss.
+
+    should be ensured. 
+
+*taken from ~* [An Introduction to Database Reliability](https://www.bmc.com/blogs/database-reliability/)
+
+
+#### Types of faults : 
+
+##### 1. Hardware Faults : 
+To deal with hardware fault we can add redundancy to each of the hardware component. By redundancy we mean storing the data in more than one place to deal with hardware faliures and keeping the operation active.
+
+But nowadays the data volumes and application's compute demands have increased rapidly which have forced us to incorporate _software fault-tolerant_ techniques in case of *loss of entire machine*.
+
+
+
+
+
