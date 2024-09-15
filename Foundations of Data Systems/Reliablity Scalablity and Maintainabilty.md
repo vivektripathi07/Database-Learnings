@@ -38,7 +38,7 @@ For data to be considered as reliable:
 
     should be ensured. 
 
-*taken from ~* [An Introduction to Database Reliability](https://www.bmc.com/blogs/database-reliability/)
+*taken from*  [An Introduction to Database Reliability](https://www.bmc.com/blogs/database-reliability/)
 
 
 #### Types of faults : 
@@ -46,7 +46,7 @@ For data to be considered as reliable:
 ##### 1. Hardware Faults : 
 To deal with hardware fault we can add redundancy to each of the hardware component. By redundancy we mean storing the data in more than one place to deal with hardware faliures and keeping the operation active.
 
-But nowadays the data volumes and application's compute demands have increased rapidly which have forced us to incorporate _software fault-tolerant_ techniques in case of *loss of entire machine*.
+But nowadays the data volumes and application's compute demands have increased rapidly which have forced us to incorporate software fault-tolerant techniques in case of *loss of entire machine*.
 
 
 
