@@ -1,4 +1,4 @@
-*Most application today are data-intensive, as opposed to compute-intensive.*
+## *Most application today are data-intensive, as opposed to compute-intensive.*
 
 In this chapter we will discuss about :
 
@@ -47,8 +47,3 @@ For data to be considered as reliable:
 To deal with hardware fault we can add redundancy to each of the hardware component. By redundancy we mean storing the data in more than one place to deal with hardware faliures and keeping the operation active.
 
 But nowadays the data volumes and application's compute demands have increased rapidly which have forced us to incorporate software fault-tolerant techniques in case of *loss of entire machine*.
-
-
-
-
-
