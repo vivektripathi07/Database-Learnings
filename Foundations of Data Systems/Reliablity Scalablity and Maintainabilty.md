@@ -47,3 +47,21 @@ For data to be considered as reliable:
 To deal with hardware fault we can add redundancy to each of the hardware component. By redundancy we mean storing the data in more than one place to deal with hardware faliures and keeping the operation active.
 
 But nowadays the data volumes and application's compute demands have increased rapidly which have forced us to incorporate software fault-tolerant techniques in case of *loss of entire machine*.
+
+##### 2. Software Faults :
+Unlike the hardware faults which are very less likely to spread (i.e fault in one system's disk wouldn't affect any other system), software cause much more damage as these faults are corelated across the nodes.
+
+Software bugs are very difficult to anticipate as they often lie dormant for a long time unless triggered.
+
+Dealing with software faults is much more difficult task and consumes a lot of time.
+
+    Some ways of dealing with software faults: 
+    1. Thorough testing
+    2. Process Isoloation
+    3. Mointoring and analyzing system behavior in production.
+
+
+##### 3. Human Error :
+Humans can make errors is very obvious and we cant go around it as making error is a way of creating a good and reliable system. 
+
+And reducing those errors is what I am learning.
