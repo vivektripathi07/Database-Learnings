@@ -65,3 +65,28 @@ Dealing with software faults is much more difficult task and consumes a lot of t
 Humans can make errors is very obvious and we cant go around it as making error is a way of creating a good and reliable system. 
 
 And reducing those errors is what I am learning.
+
+
+### Scalabity :
+
+If a system is working a reliable fashion now doesn't mean it would work in the same manner once load on the system is increased. One of the common reason for an application's downfall is it inablity to perform once the concurrent user increases, hence **Scalabilty** is very important aspect of designing a database.
+
+*Scalability is the a system's ability to cope with the increased load.*.
+
+Now lets talk what exactly load means : 
+
+Load isn't a specific number but an umbrella term which may depend upon the context or scope of the project which depends on load parameter.
+    It can be :
+
+    1. Request per/sec to a web server.
+    2. Ratio of read/write in a database.
+    3. Number of active users in a chat room.
+    4. Hit rate on a cache.
+    5. OR SOMETHING ELSE...
+
+Now lets describe what *performance* means:
+
+Performance is the measure of how quickly and effectively a system operates. Caching, indexing, and query optimization are just a few of the performance-enhancing features that must be included in the architecture.
+
+Performance in software architechture refers to responsiveness of a software system in deleviring its intended functionality, processing requests and providing smooth user experience. 
+
