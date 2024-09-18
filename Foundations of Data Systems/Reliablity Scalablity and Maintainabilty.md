@@ -90,3 +90,24 @@ Performance is the measure of how quickly and effectively a system operates. Cac
 
 Performance in software architechture refers to responsiveness of a software system in deleviring its intended functionality, processing requests and providing smooth user experience. 
 
+
+#### How to cope with increasing *LOAD* ?
+
+On a very basic level there are two types of Scaling :
+
+1. Vertical Scaling
+2. Horizontal Scaling
+
+##### Vertical Scaling:
+Also know as up-scaling, here we increase the overall performance capacity of out system.
+    It could be achived by:
+    1. Upgrading the physical machine that's running our system.
+    2. Migrating to a more capable machine to handle increased load.
+
+##### Horizontal Scaling:
+Also know as out-scaling, here we meet the desired need of the system by adding more number of machines (also known as nodes).
+    It could be achieved by:
+    1. Adding more number of machine to the environment for meeting the system requirements.
+
+In terms of database, it is common wisdom that, until forced to do so, database should be scaled vertically as adding multiple nodes and distributing the database on them can result in a lot of additional complexities.
+
