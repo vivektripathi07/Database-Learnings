@@ -109,5 +109,7 @@ Also know as out-scaling, here we meet the desired need of the system by adding 
     It could be achieved by:
     1. Adding more number of machine to the environment for meeting the system requirements.
 
+[Additinal Read](https://www.cockroachlabs.com/blog/vertical-scaling-vs-horizontal-scaling/)
+
 In terms of database, it is common wisdom that, until forced to do so, database should be scaled vertically as adding multiple nodes and distributing the database on them can result in a lot of additional complexities.
 
